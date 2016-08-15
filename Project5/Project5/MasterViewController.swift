@@ -86,8 +86,8 @@ class MasterViewController: UITableViewController {
     
     func submitAnswer(answer: String) {
         let lowerAnswer: String = answer.lowercased()
-        var errorTitle: String = String()
-        var errorMessage: String = String()
+        let errorTitle: String
+        let errorMessage: String
         
         if wordIsPossible(word: lowerAnswer) {
             if wordIsOriginal(word: lowerAnswer) {
@@ -96,6 +96,8 @@ class MasterViewController: UITableViewController {
                     
                     let indexPath = NSIndexPath(row: 0, section: 0)
                     tableView.insertRows(at: [indexPath as IndexPath], with: .automatic)
+                    
+                    return
                 } else {
                     errorTitle = "Word not recognized."
                     errorMessage = "You can't just make them up, you know!"
