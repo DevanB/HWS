@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CCE2FA651D5E0BA7005DE423 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE2FA651D5E0BA7005DE423 /* Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE2FA681D5E0BA7005DE423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCE2FA6A1D5E0BA7005DE423 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		CCE2FA6C1D5E0BA7005DE423 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		CCE2FA5C1D5E0BA6005DE423 = {
 			isa = PBXGroup;
 			children = (
-				CCE2FA671D5E0BA7005DE423 /* Project1 */,
+				CCE2FA671D5E0BA7005DE423 /* Project3 */,
 				CCE2FA661D5E0BA7005DE423 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		CCE2FA661D5E0BA7005DE423 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCE2FA651D5E0BA7005DE423 /* Project1.app */,
+				CCE2FA651D5E0BA7005DE423 /* Project3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCE2FA671D5E0BA7005DE423 /* Project1 */ = {
+		CCE2FA671D5E0BA7005DE423 /* Project3 */ = {
 			isa = PBXGroup;
 			children = (
 				CCE2FA681D5E0BA7005DE423 /* AppDelegate.swift */,
@@ -85,6 +85,7 @@
 				CCE2FA761D5E0BA7005DE423 /* Info.plist */,
 				CCE2FA7C1D5E0DBA005DE423 /* Content */,
 			);
+			name = Project3;
 			path = Project1;
 			sourceTree = "<group>";
 		};
@@ -108,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CCE2FA641D5E0BA6005DE423 /* Project1 */ = {
+		CCE2FA641D5E0BA6005DE423 /* Project3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCE2FA791D5E0BA7005DE423 /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildConfigurationList = CCE2FA791D5E0BA7005DE423 /* Build configuration list for PBXNativeTarget "Project3" */;
 			buildPhases = (
 				CCE2FA611D5E0BA6005DE423 /* Sources */,
 				CCE2FA621D5E0BA6005DE423 /* Frameworks */,
@@ -120,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = Project1;
+			name = Project3;
 			productName = Project1;
-			productReference = CCE2FA651D5E0BA7005DE423 /* Project1.app */;
+			productReference = CCE2FA651D5E0BA7005DE423 /* Project3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CCE2FA601D5E0BA6005DE423 /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = CCE2FA601D5E0BA6005DE423 /* Build configuration list for PBXProject "Project3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -154,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCE2FA641D5E0BA6005DE423 /* Project1 */,
+				CCE2FA641D5E0BA6005DE423 /* Project3 */,
 			);
 		};
 /* End PBXProject section */
@@ -333,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCE2FA601D5E0BA6005DE423 /* Build configuration list for PBXProject "Project1" */ = {
+		CCE2FA601D5E0BA6005DE423 /* Build configuration list for PBXProject "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCE2FA771D5E0BA7005DE423 /* Debug */,
@@ -342,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCE2FA791D5E0BA7005DE423 /* Build configuration list for PBXNativeTarget "Project1" */ = {
+		CCE2FA791D5E0BA7005DE423 /* Build configuration list for PBXNativeTarget "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCE2FA7A1D5E0BA7005DE423 /* Debug */,
